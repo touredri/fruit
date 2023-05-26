@@ -33,3 +33,14 @@ export const fetchImageUrlByName = async (name) => {
     throw new Error(`Error fetching image URL: ${error.message}`);
   }
 };
+
+export const fetchFruitData = async (name) => {
+  try {
+    const res = await axios(allOriginsUrl + encodeURIComponent(`https://www.fruityvice.com/api/fruit/${name}`));
+    const contents = JSON.parse(res.data.contents);
+    const nutrition = contents.nutritions;
+    return nutrition;
+  } catch (e) {
+    throw new Error(e);
+  }
+};
