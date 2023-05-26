@@ -9,6 +9,7 @@ function Home() {
   const fruit = useSelector((store) => store.fruit);
   const dispatch = useDispatch();
   const [fruitElements, setFruitElements] = useState(null);
+  const [filterFruit, setFilterFruit] = useState('');
 
   useEffect(() => {
     dispatch(getFruit());
@@ -23,6 +24,9 @@ function Home() {
           if (Array.isArray(fruitData)) {
             const promises = await Promise.allSettled(
               fruitData.map(async (element) => {
+                if (element.name.toLowerCase().indexOf(filterFruit.toLocaleLowerCase()) === -1) {
+                  return Promise.resolve();
+                }
                 // use Promise.allSettled for better performance
                 try {
                   const imageUrl = await fetchImageUrlByName(element.name);
@@ -89,11 +93,11 @@ function Home() {
     };
 
     fetchFruitElements();
-  }, [fruit.data]);
+  }, [filterFruit, fruit.data]);
 
   return (
     <div style={{ backgroundColor: '#f2f2f2' }} className="container">
-      <NavBar />
+      <NavBar filterFruit={filterFruit} onFilterChange={setFilterFruit} />
       {fruitElements}
     </div>
   );
