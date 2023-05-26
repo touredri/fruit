@@ -78,6 +78,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [**Live Demo**](https://dev--superb-taiyaki-212be8.netlify.app/)
+- [**Video Presentation**](https://www.loom.com/share/5576a817a77745728d3db2d78484d70a)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
