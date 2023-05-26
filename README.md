@@ -2,7 +2,8 @@
 
   <h3><b>Space Traveler's Hub</b></h3>
   
-  ![Fruit Nutritions info]
+![Home Page](https://github.com/touredri/fruit/assets/112565844/57f77ada-b16b-4f67-be45-fcbdb7e2027c)
+![Details page](https://github.com/touredri/fruit/assets/112565844/01e20609-ba44-4de0-b50f-7a3b3dedea47)
 
 </div>
 <!-- TABLE OF CONTENTS -->
@@ -99,7 +100,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 ```sh
 cd my-folder
-git clone git@github.com:mahabubx7/space-cars.git
+git clone git@github.com/touredri/fruit.git
 ```
 
 ### Install
@@ -123,13 +124,13 @@ To run tests, run the following command:
   npm test
   ```
 
-#### Lints
+#### Linters
 ```bash
-npm run lint
+npx eslint "**/*.{js,jsx}"
 ```
 or 
 ```bash
-npm run lint:fix
+npx eslint "**/*.{js,jsx}" --fix
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
