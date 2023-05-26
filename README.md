@@ -78,7 +78,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [**Live Demo**](https://dev--superb-taiyaki-212be8.netlify.app/)
-- [**Video Presentation**](https://www.loom.com/share/5576a817a77745728d3db2d78484d70a)
+- [**Video Presentation**](https://www.loom.com/share/109ab09b8a5946a6a34b20c0a2538a3b)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -178,6 +178,7 @@ If you like this project then please give a ⭐️ and also share your feedback.
 
 ## Acknowledgments
 Big ups to Microverse team .
+Thanks to Nelson Sakwa the author of the original design
 Thanks to https://www.fruityvice.com/ for their API
 Thanks to Unsplash: https://help.unsplash.com/en/articles/2511271-guideline-hotlinking-images also for they image API
 

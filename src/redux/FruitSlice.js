@@ -6,9 +6,6 @@ export const initialState = {
 };
 const Fruit = createSlice({
   name: 'fruit',
-  // initialState: {
-  //   data: [],
-  // },
   initialState,
   reducers: {},
   extraReducers: (builder) => {
