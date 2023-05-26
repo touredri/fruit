@@ -7,6 +7,7 @@ import { fetchImageUrlByName, fetchFruitData } from '../redux/apiCall';
 const Details = () => {
   const { fruitName } = useParams();
   const [showFruit, setFruit] = useState(null);
+
   useEffect(() => {
     const fetchData = async () => {
       const imgUrl = await fetchImageUrlByName(fruitName);
@@ -16,6 +17,7 @@ const Details = () => {
 
     fetchData();
   }, [fruitName]);
+
   return (
     <div>
       <div className="detailNav">
@@ -42,7 +44,6 @@ const Details = () => {
               <span>{showFruit.fruit.sugar}</span>
             </div>
             <div className="card">
-              {' '}
               <h3>Carbohydrates:</h3>
               <span>{showFruit.fruit.carbohydrates}</span>
             </div>
