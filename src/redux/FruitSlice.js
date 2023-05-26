@@ -1,11 +1,15 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { getFruit } from './apiCall';
 
+export const initialState = {
+  data: [],
+};
 const Fruit = createSlice({
   name: 'fruit',
-  initialState: {
-    data: [],
-  },
+  // initialState: {
+  //   data: [],
+  // },
+  initialState,
   reducers: {},
   extraReducers: (builder) => {
     builder.addCase(getFruit.fulfilled, (state, action) => {
