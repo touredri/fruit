@@ -3,6 +3,7 @@ import axios from 'axios';
 
 const allOriginsUrl = 'https://api.allorigins.win/get?url=';
 const targetUrl = 'https://www.fruityvice.com/api/fruit/all';
+
 export const getFruit = createAsyncThunk('getFruit', async () => {
   try {
     const res = await axios.get(allOriginsUrl + encodeURIComponent(targetUrl));

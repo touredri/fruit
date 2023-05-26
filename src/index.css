@@ -70,3 +70,32 @@ span {
   font-size: 25px;
   font-weight: bold;
 }
+
+@media only screen and (min-width: 500px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .desk {
+    display: flex;
+    flex-direction: row;
+  }
+
+  figure {
+    width: 25%;
+    margin: 5px 0;
+  }
+
+  img {
+    height: 120px;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  .detailImg {
+    height: 400px;
+  }
+}
