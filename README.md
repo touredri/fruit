@@ -1,70 +1,193 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3><b>Space Traveler's Hub</b></h3>
+  
+![Home Page](https://github.com/touredri/fruit/assets/112565844/57f77ada-b16b-4f67-be45-fcbdb7e2027c)
+![Details page](https://github.com/touredri/fruit/assets/112565844/01e20609-ba44-4de0-b50f-7a3b3dedea47)
 
-## Available Scripts
+</div>
+<!-- TABLE OF CONTENTS -->
 
-In the project directory, you can run:
+# 📗 Table of Contents
 
-### `npm start`
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run Linters](#run-tests)
+- [Screenshot](#screenshot)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contribute](#contribute)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- PROJECT DESCRIPTION -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 🧑‍💻 Fruit <a name="about-project"></a>
 
-### `npm test`
+> ** The Fruit Catalog Application is a web-based application that allows users to browse and explore various fruits along with their nutritional information. Users can view a list of fruits, filter them based on their names, and click on individual fruits to view detailed information about each fruit. The application integrates with an external API to fetch fruit data, including images and nutritional content.**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 Built With <a name="built-with"></a>
 
-### `npm run build`
+### Tech Stack <a name="tech-stack"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li>React</li>
+    <li>Redux</li>
+    <li>Redux Toolkit</li>
+  </ul>
+</details>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li>Not Available</li>
+  </ul>
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<details>
+<summary>Database</summary>
+  <ul>
+    <li>Not Available</li>
+  </ul>
+</details>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- Features -->
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Key Features <a name="key-features"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- List of Fruits Page
+- Details page
+- Nutritions information
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Learn More
+<!-- LIVE DEMO -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Live Demo <a name="live-demo"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [**Live Demo**](https://dev--superb-taiyaki-212be8.netlify.app/)
+- [**Video Presentation**](https://www.loom.com/share/109ab09b8a5946a6a34b20c0a2538a3b)
 
-### Code Splitting
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- GETTING STARTED -->
 
-### Analyzing the Bundle Size
+## 💻 Getting Started <a name="getting-started"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To get a local copy up and running, follow these steps.
 
-### Making a Progressive Web App
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+In order to run this project you need:
 
-### Advanced Configuration
+- Nodejs
+- Node Package Manager
+- VS Code text editor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Setup
 
-### Deployment
+Clone this repository to your desired folder:
+```sh
+cd my-folder
+git clone git@github.com/touredri/fruit.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Install
+Install this project with:
+```sh
+cd my-project
+npm install
+```
 
-### `npm run build` fails to minify
+### Usage
+To run the project, execute the following command:
+```bash
+  npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Run tests
+To run tests, run the following command:
+
+#### Jest Test
+```bash
+  npm test
+  ```
+
+#### Linters
+```bash
+npx eslint "**/*.{js,jsx}"
+```
+or 
+```bash
+npx eslint "**/*.{js,jsx}" --fix
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+#### 👤 **Drissas Touré**
+
+- Github: [Drissas](https://github.com/touredri)
+- Twitter: [Drissas](https://twitter.com/touredri)
+- LinkedIn: [Drissas](https://www.linkedin.com/in/touredri/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- Add record view
+- Add possibility to share
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contribute <a name="contribute"></a>
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues](https://github.com/touredri/fruit/issues) page
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project then please give a ⭐️ and also share your feedback.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## Acknowledgments
+Big ups to Microverse team .
+Thanks to Nelson Sakwa the author of the original design
+Thanks to https://www.fruityvice.com/ for their API
+Thanks to Unsplash: https://help.unsplash.com/en/articles/2511271-guideline-hotlinking-images also for they image API
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
